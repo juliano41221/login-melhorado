@@ -129,7 +129,6 @@
   </div>
 </body>
 <script>
-
   (() => {
     'use strict'
 
@@ -186,6 +185,7 @@
             } else {
               event.preventDefault();
               alert('Login ou senha incorretos');
+              window.location.reload(); // Recarrega a página para limpar as caixas de texto
             }
           } else {
             event.preventDefault();
